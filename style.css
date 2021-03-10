@@ -1,0 +1,495 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* ---------Scroll--------- */
+
+
+/* width */
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #686d75;
+    border-radius: 5px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #686d75;
+    border-radius: 5px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #686d75;
+}
+
+
+/* --------------------Scroll------------------- */
+
+.row {
+    margin: 0px !important;
+}
+
+
+/* ---------------/Scroll----------------- */
+
+
+/* ------------------Navbar------------------ */
+
+.navbar-brand {
+    margin-left: 14vh !important;
+    /*color: white !important;*/
+}
+
+.navbar-text {
+    margin-right: 14vh !important;
+}
+
+nav {
+    
+  
+    position: fixed;
+    top: 0;
+    height: 69px;
+    width: 100%;
+    transition: background 0.5s;
+}
+
+nav.scrolled {
+    background: #686d75;
+    opacity: 0.9;
+}
+
+/*.nav-link,
+.dropdown-item {
+    color: #112358 !important;
+}*/
+
+.nav-link:hover {
+    color: #FFD700 !important;
+}
+
+.dropdown-menu {
+    background: none !important;
+}
+
+.dropdown-item:hover {
+    background: none !important;
+    color: #FFD700 !important;
+}
+
+
+/* ----------------------/Navbar-------------------- */
+
+
+/* -----------------------First------------------- */
+
+.carousel-item {
+    width: 100% !important;
+   /* height: 100vh !important;*/
+}
+
+
+/* -------------------------/First---------------------- */
+
+
+/*.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 600px solid transparent;
+    border-right: 600px solid transparent;
+    border-top: 50px solid #294D68;
+}*/
+
+
+/* --------------------------------Second----------------------- */
+
+.second {
+    height: 900px;
+}
+
+.what {
+    color: white;
+    margin: auto;
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.card {
+    border-radius: 0px !important;
+}
+
+.card .btn {
+    border-radius: 0px !important;
+}
+
+
+/* --------------------------------/Second-------------------------------- */
+
+
+/* -----------------------------third------------------------- */
+
+.mark {
+    list-style: url("icons/icons8-checkmark-15.png");
+    list-style-position: inside;
+    background: none !important;
+}
+
+hr.line {
+    width: 500px;
+    margin-left: 5px;
+    border-top: 1px solid black;
+}
+
+.third {
+    height: 700px;
+}
+
+
+/* ---------------------------/third----------------------- */
+
+
+/* -----------------------------Fourth--------------------------- */
+
+.brands {
+    margin-top: 0px !important;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.brands_slider_container {
+    height: 130px;
+    border: solid 1px white;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 97px;
+    padding-right: 97px;
+}
+
+.brands_slider_container1 {
+    height: 525px;
+    width: 100%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 97px;
+    padding-right: 97px;
+}
+
+.brands_slider {
+    height: 100%;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.brands_item {
+    width: 60px;
+    height: 100%;
+}
+
+.brands_item1 {
+    width: 300px;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.brands_item img {
+    max-width: 100%;
+}
+
+.brands_nav {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.brands_nav i {
+    color: #e5e5e5;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.brands_nav:hover i {
+    color: #676767;
+}
+
+.brands_prev {
+    left: 40px;
+}
+
+.brands_next {
+    right: 40px;
+}
+
+.diviLeft {
+    width: 30px;
+    height: 30px;
+    background-image: url("icons/icons8-chevron-left-26.png");
+    background-repeat: no-repeat;
+}
+
+.diviRight {
+    width: 30px;
+    height: 30px;
+    background-image: url("icons/icons8-chevron-right-26.png");
+    background-repeat: no-repeat;
+}
+
+
+/* ------------------------------/Fourth------------------------- */
+
+
+/*----------------------- Map ------------------------*/
+
+.mapouter {
+    height: 400px;
+    width: 500px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 400px;
+    width: 500px;
+}
+
+
+/* --------------------------------/Map------------------------ */
+
+
+/*----------------------contact form--------------------------*/
+
+.wrapper {
+    height: 600px;
+    margin-top: 60px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+    width: 100%;
+}
+
+.contact-form {
+    margin-top: -30px;
+}
+
+.input-fields .input,
+.msg textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #112358 !important;
+    width: 100%;
+}
+
+.msg textarea {
+    height: 178px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #112358;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #112358;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #112358;
+}
+
+.btn1 {
+    background: #112358;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Loc {
+        text-align: center;
+    }
+/*-----------------services------------------*/
+
+    input#vehicle1, #vehicle2, #vehicle3, #vehicle4 {
+        width: 30px; 
+        height: 30px; 
+    }
+    label{
+        font-size: 35px;
+    }
+.services img {
+    width: 500px;
+    height: 400px;
+
+}
+.carousel-item img{
+    height: 700px;
+}
+
+.ragac{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+    /*-------------/services--------------*/
+
+/*-----------------------------/contact form--------------------------*/
+
+@media only screen and (max-width: 1202px) {
+    .about_text {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .mapouter {
+        margin-left: 30%;
+    }
+    .contact-form {
+        margin-left: 30%;
+    }
+    .ProjectCard {
+        background-color: none !important;
+    }
+    .card-body h3:hover {
+        color: #FFD700;
+    }
+}
+
+
+/* -----------------------------Footer------------------------------- */
+
+footer {
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: #294D68;
+}
+
+footer a:hover {
+    text-decoration: none !important;
+    color: #FFD700;
+}
+
+footer a {
+    color: white;
+}
+
+
+/* --------------------------------/Footer--------------------------------- */
+
+@media only screen and (max-width: 992px) {
+    .Center {
+        text-align: center;
+    }
+}
+
+.play {
+    display: none;
+}
+
+@media only screen and (max-width: 1430px) {
+    #carouselExampleSlidesOnly {
+        display: none;
+    }
+    .play {
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width: 1430px) {
+    .navbar-brand {
+        margin-left: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 1201px) {
+    .second {
+        height: 1400px;
+    }
+    .card {
+        width: 18rem !important;
+    }
+    .third {
+        height: 1250px !important;
+    }
+    .Center {
+        /* text-align:center;  */
+        display: flex;
+        margin: 0px !important;
+        justify-content: center;
+    }
+    .imgwidth {
+        width: 70%;
+    }
+    .f {
+        margin: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .second {
+        height: 3000px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    nav {
+        height: 100px !important;
+        margin: 0px;
+    }
+    .navbar-collapse {
+        background-color: #686d75;
+    }
+    .form-control {
+        width: 170px !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .Loc {
+        text-align: center;
+    }
+    .cardImg img {
+        margin-top: 20% !important;
+    }
+}
+
